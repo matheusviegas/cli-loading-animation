@@ -17,7 +17,7 @@ yarn add cli-loading-animation
 ```javascript
 const { loading } = require('cli-loading-animation');
 
-const { start, stop } = loading('Loading..', { clearOnEnd: false });
+const { start, stop } = loading('Loading..');
 
 start();
 
